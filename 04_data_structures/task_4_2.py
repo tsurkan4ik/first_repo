@@ -9,3 +9,5 @@
 '''
 
 mac = 'AAAA:BBBB:CCCC'
+mac = mac.replace('AAAA:BBBB:CCCC', 'AAAA.BBBB.CCCC')    #с помощью метода replace строка преобразовывается из ':' в '.'
+                    
