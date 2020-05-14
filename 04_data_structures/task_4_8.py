@@ -19,3 +19,14 @@
 '''
 
 ip = '192.168.3.1'
+
+
+ip=ip.split('.')
+one, two, three, four = ip
+one=int(one)
+two=int(two)
+three=int(three)
+four=int(four)
+print("{:<10}{:<10}{:<10}{:<10}".format(one, two, three, four))
+print("{:08b}  {:08b}  {:08b}  {:08b}".format(one, two, three, four))
+	
